@@ -1,0 +1,2 @@
+ curl.exe http://127.0.0.1:8000/dealers/
+[{"id": 1, "name": "Pune Cars", "location": "Pune"}, {"id": 2, "name": "Mumbai Motors", "location": "Mumbai"}]

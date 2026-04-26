@@ -1,0 +1,3 @@
+ curl.exe http://127.0.0.1:8000/dealer/1/reviews/
+[{"dealer_id": 1, "review": "Excellent service", "rating": 5}, {"dealer_id": 1, "review": "Very professional staff", "rating": 4}]
+
