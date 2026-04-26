@@ -28,60 +28,50 @@ function Register() {
 
       <form onSubmit={handleSubmit}>
 
-        <div>
-          <label>Username:</label>
-          <input 
-            type="text" 
-            name="username" 
-            value={formData.username}
-            onChange={handleChange}
-            required 
-          />
-        </div>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          value={formData.username}
+          onChange={handleChange}
+          required
+        />
 
-        <div>
-          <label>First Name:</label>
-          <input 
-            type="text" 
-            name="firstName" 
-            value={formData.firstName}
-            onChange={handleChange}
-            required 
-          />
-        </div>
+        <input
+          type="text"
+          name="firstName"
+          placeholder="First Name"
+          value={formData.firstName}
+          onChange={handleChange}
+          required
+        />
 
-        <div>
-          <label>Last Name:</label>
-          <input 
-            type="text" 
-            name="lastName" 
-            value={formData.lastName}
-            onChange={handleChange}
-            required 
-          />
-        </div>
+        <input
+          type="text"
+          name="lastName"
+          placeholder="Last Name"
+          value={formData.lastName}
+          onChange={handleChange}
+          required
+        />
 
-        <div>
-          <label>Email:</label>
-          <input 
-            type="email" 
-            name="email" 
-            value={formData.email}
-            onChange={handleChange}
-            required 
-          />
-        </div>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
 
-        <div>
-          <label>Password:</label>
-          <input 
-            type="password" 
-            name="password" 
-            value={formData.password}
-            onChange={handleChange}
-            required 
-          />
-        </div>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          value={formData.password}
+          onChange={handleChange}
+          required
+        />
 
         <button type="submit">Register</button>
 
